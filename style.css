@@ -1,0 +1,123 @@
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    color: #333;
+}
+
+header {
+    background-color: #136D87;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+nav {
+    background-color: #4a8a9d;
+    padding: 0.5rem 0;
+    text-align: center;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+nav ul li a:hover {
+    color: #136D87;
+    background-color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 4px rgba(253, 253, 253, 0.2);
+}
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+main img {
+    object-fit: contain;
+    /* margin: 20px auto 0; */
+}
+
+h2 {
+    color: #136D87;
+    border-bottom: 1px solid #136D87;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+}
+
+p {
+    margin: 10px 20px;
+}
+
+footer {
+    background-color: #4a8a9d;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+button {
+    display: block;
+    background-color: #175d70;
+    border: none;
+    color: #f0f0f0;
+    padding: 0.7rem 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 0 auto; 
+}
+
+button:hover {
+    background-color: #136D87;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+button a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+
+    nav {
+        top: 75px;
+    }
+}
